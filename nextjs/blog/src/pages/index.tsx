@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 
@@ -18,7 +19,7 @@ export default function Home() {
 `}
 		>
 			<h2>Hello World!</h2>
-			<Link href="/blog">Go to Blog</Link>
+         <Button>Button</Button>
 		</div>
 	);
 }
