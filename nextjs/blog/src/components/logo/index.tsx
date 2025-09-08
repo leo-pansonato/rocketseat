@@ -2,7 +2,7 @@ import Image, { ImageProps } from "next/image";
 import Link from "next/link";
 
 export const Logo = ({
-	src = "/next.svg",
+	src = "/brand-logo.png",
 	alt = "Logo Site",
 	width = 116,
 	height = 36,
